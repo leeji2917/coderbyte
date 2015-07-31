@@ -1,0 +1,15 @@
+def LongestWord(sen)
+
+  c = sen.scan(/\w+/)
+    
+  #split(" ")
+  
+  #array2 = c.{|word| word.length}
+  #puts array2[0]
+  return c.max_by(&:length)
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+LongestWord(STDIN.gets)           
