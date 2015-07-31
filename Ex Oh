@@ -1,0 +1,26 @@
+def ExOh(str)
+
+ 
+ a=str.split('').count"x"
+   
+ b=str.split('').count"o"
+
+  c=true
+    
+  if a!=b
+    c=false
+ 
+  end    
+    
+   
+  
+	
+ 
+
+  return c
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+ExOh(STDIN.gets)           
